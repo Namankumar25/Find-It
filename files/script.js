@@ -29,7 +29,7 @@ btnSub.addEventListener("click", () => {
     let params = {
       method: "GET",
       headers: {
-        Authorization: "Token " + "279962d6ec76689c4617d396c359c3ab1809573b",
+        Authorization: "Token " + "<YOUR_AUTHORIZATION_TOKEN>",
       },
     };
     fetch(url, params)
